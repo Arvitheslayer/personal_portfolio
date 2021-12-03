@@ -1,0 +1,10 @@
+h2 {
+    color: blue;
+}
+* {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn39D87QgqtHdm3MpueGlJ8BglTtDuRklG-w&usqp=CAU);
+    background-size: 100%
+}
