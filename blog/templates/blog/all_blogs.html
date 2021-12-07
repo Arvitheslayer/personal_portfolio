@@ -1,12 +1,8 @@
+{%  extends 'portfolio/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Blogs</title>
-    <link href="{% static 'blog/css/style.css' %}" rel="stylesheet" type="text/css">
-</head>
-<body>
+{% block content %}
+
+
 <h1>Hello blog</h1>
 
 <h2>Andrew has written {{ blogs.count }} blog {{ blogs.count|pluralize }}</h2>
@@ -17,5 +13,6 @@
 <p>{{ blog.date|date:'M d Y'|upper}}</p>
 <p>{{ blog.description|striptags|truncatechars:100 }}</p>
 {% endfor %}
+{% endblock %}
 </body>
 </html>

@@ -1,0 +1,21 @@
+h1 {
+    position: relative;
+    left: 17.5%;
+}
+
+.imgmain {
+    position: relative;
+    left: 35%;
+    height: 400px;
+    width: 400px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+.imgproject {
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
