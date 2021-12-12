@@ -4,6 +4,7 @@
 
 {% block content %}
 <head>
+    <body>
 <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}" type="text/css">
     </head>
     <h1>Hello,it's my personal portfolio of web developer</h1>
@@ -15,7 +16,7 @@
 <block>
 <h2>{{ project.title }}</h2>
 <img src="{{ project.image.url}}" class="imgproject">
-<p>{{ project.description}}</p>
+<p class="desc">{{ project.description}}</p>
 
 {%  if project.url %}
     <br><a href="{{ project.url }}">Link</a>

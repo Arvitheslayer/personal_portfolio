@@ -1,0 +1,9 @@
+.nav-item-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 77%;
+}
+.container-fluid {
+    background-color: rgba(0, 241, 82, 0.55);
+}
